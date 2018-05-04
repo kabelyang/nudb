@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="detail">
+      <UniqueIdentifier>{41e6f1e9-bc4f-4223-82e2-b8d59b657669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{912d2cab-00e3-4aa5-a11c-75d90be166ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{3669da35-c6c5-4dff-a6dc-e507ff70dccd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nudb\basic_store.hpp" />
+    <ClInclude Include="nudb\concepts.hpp" />
+    <ClInclude Include="nudb\create.hpp" />
+    <ClInclude Include="nudb\error.hpp" />
+    <ClInclude Include="nudb\file.hpp" />
+    <ClInclude Include="nudb\native_file.hpp" />
+    <ClInclude Include="nudb\nudb.hpp" />
+    <ClInclude Include="nudb\posix_file.hpp" />
+    <ClInclude Include="nudb\progress.hpp" />
+    <ClInclude Include="nudb\recover.hpp" />
+    <ClInclude Include="nudb\rekey.hpp" />
+    <ClInclude Include="nudb\store.hpp" />
+    <ClInclude Include="nudb\type_traits.hpp" />
+    <ClInclude Include="nudb\verify.hpp" />
+    <ClInclude Include="nudb\version.hpp" />
+    <ClInclude Include="nudb\visit.hpp" />
+    <ClInclude Include="nudb\win32_file.hpp" />
+    <ClInclude Include="nudb\xxhasher.hpp" />
+    <ClInclude Include="nudb\detail\arena.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\bucket.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\buffer.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\bulkio.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\cache.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\endian.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\field.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\format.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\gentex.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\mutex.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\pool.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\stream.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\detail\xxhash.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\basic_store.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\create.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\error.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\posix_file.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\recover.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\rekey.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\verify.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\visit.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="nudb\impl\win32_file.ipp">
+      <Filter>impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="examples\example.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
